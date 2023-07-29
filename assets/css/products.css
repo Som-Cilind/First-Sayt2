@@ -25,9 +25,10 @@ line-height: 36px; /* 112.5% */
 }
 .products-cards {
     display: flex;
-    width: 1200px;
+    width: 100%;
     padding: 0px 16px;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 40px;
